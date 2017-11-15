@@ -1,0 +1,60 @@
+header {
+    border: 1px solid black;
+}
+
+nav ul li {
+    display: inline;
+    text-decoration: none;
+    margin-right: 20px;
+    border: 1px solid black;
+    border-radius: 3px;
+
+}
+
+nav ul li a {  <!-- They just look better this way -->
+    text-decoration: none;
+    padding: 4px;
+}
+
+.disabled {
+    color: gray;
+}
+
+a .disabled {
+    color: purple;
+}
+
+.active {
+    color: yellow;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+div.red + h4 {
+    background-color: blue;
+}
+
+div.blue + h4 {
+    background-color: red;
+}
+
+div.grandparent > h4 {
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+.promo {
+    font-weight: 900;
+    color: gold;
+}
+
+input {
+    height: 25px;
+}
+
