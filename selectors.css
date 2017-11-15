@@ -11,7 +11,7 @@ nav ul li {
 
 }
 
-nav ul li a {  <!-- They just look better this way -->
+nav ul li a {                /* They just look better this way */
     text-decoration: none;
     padding: 4px;
 }
